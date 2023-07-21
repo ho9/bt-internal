@@ -1,6 +1,6 @@
 # Battle Teams mono-internal cheat
 
-### [YouTube video](https://youtu.be/IBSs8ITFcCc)
+### [YouTube video](https://youtu.be/_Lk0pOXE-js)
 
 ## Screenshot
 <img src="https://i.ibb.co/hmK1wFw/Screenshot.png" alt="Screenshot" style="width: 50%">
