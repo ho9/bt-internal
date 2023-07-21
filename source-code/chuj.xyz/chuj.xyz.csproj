@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B19E9F24-673D-40FC-86F7-B7E8531E4664}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>chuj.xyz</RootNamespace>
+    <AssemblyName>chuj.xyz</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="ArabicSupport, Version=1.0.5079.40370, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\ArabicSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="base.net, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\base.net.dll</HintPath>
+    </Reference>
+    <Reference Include="configNet, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\configNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DebugUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\DebugUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Entitas.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas.Blueprints">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Entitas.Blueprints.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas.CodeGeneration.Attributes">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Entitas.CodeGeneration.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas.Unity">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Entitas.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas.Utils">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Entitas.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas.VisualDebugging.Unity">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Entitas.VisualDebugging.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="fabl">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\fabl.dll</HintPath>
+    </Reference>
+    <Reference Include="fabl.Appenders">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\fabl.Appenders.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zlib.CF, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Ionic.Zlib.CF.dll</HintPath>
+    </Reference>
+    <Reference Include="itween.net, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\itween.net.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Loxodon.Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Loxodon.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Loxodon.Framework.Binding, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Loxodon.Framework.Binding.dll</HintPath>
+    </Reference>
+    <Reference Include="Loxodon.Framework.Localizations">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Loxodon.Framework.Localizations.dll</HintPath>
+    </Reference>
+    <Reference Include="Loxodon.Log, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Loxodon.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="LZ4, Version=1.0.10.93, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Tds">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Mono.Data.Tds.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Messaging">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Mono.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Web">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Mono.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.WebBrowser">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\Mono.WebBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="MTE_script">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\MTE_script.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="physics.net, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\physics.net.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net, Version=2.0.0.668, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SSJJ.Contract, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\SSJJ.Contract.dll</HintPath>
+    </Reference>
+    <Reference Include="SSJJ.Contract.Serializer, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\SSJJ.Contract.Serializer.dll</HintPath>
+    </Reference>
+    <Reference Include="ssjj.net, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\ssjj.net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceTesting">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\UnityEngine.PerformanceTesting.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="VacuumShaders.TerrainToMesh, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\VacuumShaders.TerrainToMesh.dll</HintPath>
+    </Reference>
+    <Reference Include="weaponPredicateNet.net, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\weaponPredicateNet.net.dll</HintPath>
+    </Reference>
+    <Reference Include="zlib.net, Version=1.0.3.0, Culture=neutral, PublicKeyToken=47d7877cb3620160">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Blood Strike\battle\2\SSJJ_BattleClient_Unity_Data\Managed\zlib.net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aimbot.cs" />
+    <Compile Include="Bhop.cs" />
+    <Compile Include="Crosshair.cs" />
+    <Compile Include="Esp.cs" />
+    <Compile Include="Chams.cs" />
+    <Compile Include="Fov.cs" />
+    <Compile Include="Loader.cs" />
+    <Compile Include="UI.cs" />
+    <Compile Include="Vars.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
