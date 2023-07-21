@@ -6,7 +6,7 @@
 <img src="https://i.ibb.co/hmK1wFw/Screenshot.png" alt="Screenshot" style="width: 50%">
 
 ### Setup:
-1. Download the DLL
+1. Download the [DLL](https://github.com/ho9/bt-internal/releases/tag/x)
 2. Download any mono-injector, for example [SharpMonoInjector](https://github.com/warbler/SharpMonoInjector/releases)
 3. Join the game
 4. Run cmd with administrator privileges
