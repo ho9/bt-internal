@@ -18,3 +18,9 @@
 3. Right-click on your project in Visual Studio's Solution Explorer
 4. Select "Add" > "Reference..."
 5. Navigate to `\Blood Strike\battle\1\SSJJ_BattleClient_Unity_Data\Managed` and add all necessary DLL's
+
+<hr>
+
+### Changelog:
+- 21.07.2023 - release
+- 27.07.2023 - fixed after the new patch and added viewmodel offset
