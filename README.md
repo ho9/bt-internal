@@ -1,6 +1,7 @@
 # Battle Teams mono-internal cheat
 
 ### [YouTube video](https://youtu.be/_Lk0pOXE-js)
+### [Join the community](https://t.me/precache)
 
 ## Screenshot
 <img src="https://i.ibb.co/hmK1wFw/Screenshot.png" alt="Screenshot" style="width: 50%">
